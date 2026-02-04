@@ -2,6 +2,9 @@ import os
 import re
 from typing import List, Dict
 
+from dotenv import load_dotenv
+load_dotenv(override=True)  
+
 from pypdf import PdfReader
 import chromadb
 from openai import OpenAI
