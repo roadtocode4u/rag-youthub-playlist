@@ -12,9 +12,6 @@ venv/
 ENV/
 env/
 
-# Chroma database
-chroma_store/
-
 # IDE
 .vscode/
 .idea/
